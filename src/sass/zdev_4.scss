@@ -12,3 +12,22 @@
         }
     }
 }
+
+
+
+.footer{position:relative;width:100%;z-index:2;overflow:hidden;
+    .mbox{
+        .footer-wrap{height: 85px;flex-wrap: wrap;align-items: center;justify-content: space-between;display: flex;}
+
+        .copy{font-size: 16px;color: #faf7f3;text-transform: uppercase;}
+        .soc{
+            ul{display: flex;padding: 0;margin:0;list-style-type: none;}
+            li{margin:0 5px;transition:all ease .2s;
+                &:hover{opacity: .7;}
+            }
+        }
+        .email{
+            a{color: #faf7f3;font-size: 18px;font-style: italic;text-decoration: none;}
+        }
+    }
+}
