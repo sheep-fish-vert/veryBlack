@@ -26,7 +26,11 @@
     }
 }
 @media screen and (max-width: 767px){
-
+    .footer{
+        .mbox{
+            .footer-wrap{flex-direction: column;padding: 16px 0px;height: 125px;}
+        }
+    }
 }
 @media screen and (max-width: 666px){
     .block-2{
