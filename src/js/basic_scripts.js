@@ -163,6 +163,8 @@ $(document).ready(function() {
 
     //goTo();
     //animationBlock($('.setion-animate'));
+
+    scrollUp('.block1-mouse', '.block2');
 });
 
 $(window).resize(function() {
