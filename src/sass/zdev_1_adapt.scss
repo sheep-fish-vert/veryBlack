@@ -21,6 +21,14 @@
 }
 @media screen and (max-width: 666px){
 
+    /* popup */
+
+        .fancybox-form{width:calc(100% - 20px)!important;
+            .fancybox-inner{width:100%!important;}
+        }
+
+    /* /popup */
+
 }
 @media screen and (max-width: 479px){
 
