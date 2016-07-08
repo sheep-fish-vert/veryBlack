@@ -8,7 +8,7 @@
 
 /* block1 */
 
-    .block1{background-image:url(../images/block1-background.jpg);background-repeat: no-repeat;background-position:center top;
+    .block1{background-image:url(../images/block1-background.jpg);background-repeat: no-repeat;background-position:center top;background-size:cover;
         .block1-wrap{display:flex;justify-content: center;align-items: center;flex-direction:column;height:1070px;font-size:18px;color:#fff;font-style:italic;text-align:center;
             .block1-logo-line{margin-bottom:10px;}
             .block1-text{margin-bottom:100px;}
@@ -20,7 +20,7 @@
 
 /* block3 */
 
-    .block3{background-image:url(../images/block3-background.jpg);background-repeat: no-repeat;background-position:center center;padding:55px 0 190px 0;
+    .block3{background-image:url(../images/block3-background.jpg);background-repeat: no-repeat;background-position:center center;background-size:cover;padding:55px 0 190px 0;
         .block3-logo{text-align:center;margin-bottom:20px;}
         .block3-main{max-width:880px;width:100%;padding:25px 25px;background-color:#292827;margin:0 auto;
             .block3-content{width:100%;height:340px;border:1px solid #fff;display: flex;justify-content: center;align-items:center;flex-direction:column;
@@ -35,7 +35,8 @@
 
 /* popup */
 
-    .fancybox-form{width:555px!important;left:50%!important;top:50%!important;transform:translate(-50%, -50%);
+    .fancybox-overlay{background-color:rgba(0, 0, 0, .75);}
+    .fancybox-wrap.fancybox-form{width:555px!important;left:50%!important;top:50%!important;transform:translate(-50%, -50%);
         .fancybox-skin{background-color:#212020;border-radius: 0;box-shadow:none;}
         .fancybox-inner{width:555px!important;}
         #call-popup{padding:40px 15px 40px 15px;}
@@ -44,7 +45,7 @@
         }
         .contact-form-row{margin-bottom:90px;
             &:last-child{margin-bottom:0;display: flex;justify-content: center;
-            
+
             }
             .contact-form-item{margin-bottom:40px;
                 &:last-child{margin-bottom:0;}
@@ -56,6 +57,16 @@
                     }
                 }
             }
+        }
+    }
+
+    .fancybox-wrap.call-popup{
+        .fancybox-skin{border-radius:0;background-color:#212020;box-shadow:none;
+
+        }
+        .call-success{text-align: center;font-size:20px;color:#fff;font-style:italic;padding-top: 15px;max-width: 280px;
+            .call-title{font-size:28px;margin-bottom: 10px;}
+            .call-subtitle{margin-bottom: 15px;}
         }
     }
 
