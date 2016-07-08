@@ -1,0 +1,11 @@
+/* block1 */
+
+    .block1{background-image:url(../images/block1-background.jpg);background-repeat: no-repeat;background-position:center top;
+        .block1-wrap{display:flex;justify-content: center;align-items: center;flex-direction:column;height:1070px;font-size:18px;color:#fff;font-style:italic;text-align:center;
+            .block1-logo-line{margin-bottom:10px;}
+            .block1-text{margin-bottom:100px;}
+            .block1-mouse{cursor:pointer;}
+        }
+    }
+
+/* /block2 */
