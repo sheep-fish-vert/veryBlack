@@ -24,6 +24,25 @@
 }
 @media screen and (max-width: 479px){
 
+    /* button */
+
+        .button{width:180px;}
+
+    /* /button */
+
+    /* block3 */
+
+        .block3{
+            .block3-main{
+                .block3-content{
+                    .block3-text{font-size: 17px;}
+                    .block3-line{display: none;}
+                }
+            }
+        }
+
+    /* /block3 */
+
 }
 @media screen and (max-width: 320px){
 

@@ -206,7 +206,8 @@ function fancyboxForm(){
     wrapCSS:'fancybox-form',
     'closeBtn' : true,
     fitToView:true,
-    padding:'0'
+    padding:'0',
+    closeBtn:false
   })
 }
 
