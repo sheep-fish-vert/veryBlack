@@ -30,7 +30,7 @@
 *,*:before, *:after{box-sizing:border-box;outline:none;}
 *,body,html{-webkit-text-size-adjust: none;-webkit-appearance: none;max-height: 9001em;}
 html{height:100%;}
-body{min-height:100%;width:100%;min-width:320px;font-family:arial,sans-serif;background:#fff;color:#3d3d3d;position:relative;font-size: 16px;line-height: 1;
+body{min-height:100%;width:100%;min-width:320px;font-family:'Sitka';background:#151515;color:#eee5e5;position:relative;font-size: 16px;line-height: 1;
 
     /* styles for wp-admin panel */
 
@@ -62,7 +62,7 @@ img{vertical-align:bottom;border:0;max-width:100%;}
 
 /* wraps styling*/
 
-.mbox{max-width:1024px;width:100%;margin:0 auto;position:relative;z-index:1;}
+.mbox{max-width:1170px;width:100%;margin:0 auto;position:relative;z-index:1;padding: 0 15px;}
 .mbox:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 
 /* /wraps styling*/
@@ -82,7 +82,7 @@ input, textarea{
 
 /*fonts*/
 @mixin font-face($style-name, $file:$style-name, $weight:normal, $style:normal) {
-    $filepath: "/fonts/" + $file;
+    $filepath: "../fonts/" + $file;
     @font-face {
         font-family: quote($style-name);
         src: url($filepath + ".eot");
@@ -96,6 +96,47 @@ input, textarea{
 }
 
 //  example -> @include font-face('PFDinTextPro', 'PFDinTextPro-Bold', 700, italic);
+@font-face {
+    font-family:'Sitka';
+    src: url('../fonts/SitkaSmall-Bold_gdi.eot');
+    src: url('../fonts/SitkaSmall-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SitkaSmall-Bold_gdi.woff') format('woff'),
+        url('../fonts/SitkaSmall-Bold_gdi.ttf') format('truetype'),
+        url('../fonts/SitkaSmall-Bold_gdi.otf') format('opentype'),
+        url('../fonts/SitkaSmall-Bold_gdi.svg#SitkaSmall-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-2074;
+}
+@font-face {
+    font-family:'Sitka';
+    src: url('../fonts/SitkaSmall-Italic_gdi.eot');
+    src: url('../fonts/SitkaSmall-Italic_gdi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SitkaSmall-Italic_gdi.woff') format('woff'),
+        url('../fonts/SitkaSmall-Italic_gdi.ttf') format('truetype'),
+        url('../fonts/SitkaSmall-Italic_gdi.otf') format('opentype'),
+        url('../fonts/SitkaSmall-Italic_gdi.svg#SitkaSmall-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;
+}
+@font-face {
+    font-family:'Sitka';
+    src: url('../fonts/SitkaSmall_gdi.eot');
+    src: url('../fonts/SitkaSmall_gdi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SitkaSmall_gdi.woff') format('woff'),
+        url('../fonts/SitkaSmall_gdi.ttf') format('truetype'),
+        url('../fonts/SitkaSmall_gdi.otf') format('opentype'),
+        url('../fonts/SitkaSmall_gdi.svg#SitkaSmall-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-2074;
+}
+
+
 
 
 /*/fonts*/
