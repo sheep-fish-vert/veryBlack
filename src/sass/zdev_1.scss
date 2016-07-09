@@ -36,9 +36,8 @@
 /* popup */
 
     .fancybox-overlay{background-color:rgba(0, 0, 0, .75);}
-    .fancybox-wrap.fancybox-form{width:555px!important;left:50%!important;top:50%!important;transform:translate(-50%, -50%);
+    .fancybox-wrap.fancybox-form{
         .fancybox-skin{background-color:#212020;border-radius: 0;box-shadow:none;}
-        .fancybox-inner{width:555px!important;}
         #call-popup{padding:40px 15px 40px 15px;}
         .popup-logo{text-align:center;
             img{max-width:165px;}
